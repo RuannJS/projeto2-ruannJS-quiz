@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="icon" href="/assets/icon/quizicon.png">
+</head>
+
+
+<body class='bg-warning bg-opacity-50 text-center'>
+    <main class='container bg-warning bg-opacity-10 border border-dark text-center mt-5 pt-3'>
+        <div id="layout">
+            <div id="header" class="d-flex justify-content-evenly mb-4">
+                <div class="mt-4">
+                    <img id="category-image" width="50px">
+                    <h2 id="category-name"></h2>
+                </div>
+                <div class="mt-4">
+                    <img src="..//assets/images/timer.svg" width="50px">
+                    <h2 id="timer"></h2>
+                </div>
+                <div class="mt-4">
+                    <img src="../assets/images/question-list.svg" width="50px">
+                    <h2 id="size"></h2>
+                </div>
+            </div>
+            <div id="quiz-container">
+                <div id="quiz-question" class='mb-5'>
+                    <h3 id="question-title">QUESTION</h3>
+                </div>
+                <div id="quiz-answers" class="d-grid gap-2 col-5 mx-auto mb-3">
+                    <button class="btn btn-dark">
+                        <span class="float-start">A)</span>
+                        <span class="answer">ANSWER</span>
+                        <img class="float-end icon" width="25px" src="">
+                    </button>
+                    <button class="btn btn-dark">
+                        <span class="float-start">B)</span>
+                        <span class="answer">ANSWER</span>
+                        <img class="float-end icon" width="25px" src="">
+                    </button>
+                    <button class="btn btn-dark">
+                        <span class="float-start">C)</span>
+                        <span class="answer">ANSWER</span>
+                        <img class="float-end icon" width="25px" src="">
+                    </button>
+                    <button class="btn btn-dark">
+                        <span class="float-start">D)</span>
+                        <span class="answer">ANSWER</span>
+                        <img class="float-end icon" width="25px" src="">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="m-5">
+            <h3 id="answer-result"></h3>
+        </div>
+    </main>
+
+    <footer class="mt-5">
+        <h5>Ruann Fagundes©</h5>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

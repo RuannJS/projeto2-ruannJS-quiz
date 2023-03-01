@@ -1,0 +1,31 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+button span {
+    pointer-events: none;
+}
+
+
+.valid:valid {
+    outline: solid lightgreen 0.5px;
+}
+
+.invalid:invalid {
+    outline: solid red 0.5px;
+}
+
+.fulfilled {
+    outline: solid rgb(13, 154, 197) 0.5px;
+}
+
+.btn {
+    transition-duration: 0.4s;
+}
+
+.row .btn:hover {
+    background-color: rgb(201, 164, 2);
+    color: white;
+
+}
+
