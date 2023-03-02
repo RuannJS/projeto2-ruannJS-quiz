@@ -15,6 +15,7 @@ A aplicação consiste em um  game de perguntas e respostas, onde o usuário pod
 ## Premade Quiz
 <img src="https://github.com/RuannJS/assets/blob/master/categories.jpg" width="700px">
 <img src="https://github.com/RuannJS/assets/blob/master/premademodal.jpg" width="700px">
+<img src="https://github.com/RuannJS/assets/blob/master/premadesettings.jpg" width="700px">
 
 ## Custom Quiz
 <img src="https://github.com/RuannJS/assets/blob/master/createquiz.jpg" width="700px">
